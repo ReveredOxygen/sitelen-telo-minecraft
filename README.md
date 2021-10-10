@@ -1,4 +1,5 @@
 # sitelen telo resource pack
+![Screenshot](./screenshot.png)
 
 This is a resource pack that converts Minecraft's toki pona language
 to the sitelen telo script. To use it, just add sitelen\_telo.zip to

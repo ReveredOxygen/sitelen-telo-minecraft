@@ -13,6 +13,7 @@ cp out.png "sitelen telo/assets/minecraft/textures/font/sitelen_telo.png"
 cp font.json "sitelen telo/assets/minecraft/font/default.json"
 cp pack.mcmeta "sitelen telo"
 cp README.md "sitelen telo"
+cp screenshot.png "sitelen telo"
 
 cd "sitelen telo"
 zip -r ../sitelen_telo.zip *
