@@ -1,0 +1,3 @@
+fontforge
+cariosvg
+pillow
