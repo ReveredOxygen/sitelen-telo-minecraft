@@ -14,4 +14,6 @@ cp font.json "sitelen telo/assets/minecraft/font/default.json"
 cp pack.mcmeta "sitelen telo"
 cp README.md "sitelen telo"
 
-zip -r sitelen_telo.zip sitelen\ telo/*
+cd "sitelen telo"
+zip -r ../sitelen_telo.zip *
+cd ..
