@@ -22,7 +22,7 @@ def patch(string):
     uppercasing = False
     new = []
     for x in list(string):
-        if x.isupper():
+        if x.isupper() and not uppercasing:
             new += '[' + x
             uppercasing = True
         elif uppercasing:
