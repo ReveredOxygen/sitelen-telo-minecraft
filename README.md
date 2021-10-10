@@ -1,6 +1,9 @@
 # sitelen telo resource pack
 ![Screenshot](./screenshot.png)
 
+[Download at Github](https://github.com/ReveredOxygen/sitelen-telo-minecraft)  
+[Download at Planet Minecraft](https://www.planetminecraft.com/texture-pack/sitelen-telo/)
+
 This is a resource pack that converts Minecraft's toki pona language
 to the sitelen telo script. To use it, just add sitelen\_telo.zip to
 your resource packs. **You do not need to unzip it**.  
