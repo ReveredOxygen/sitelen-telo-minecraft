@@ -19,6 +19,7 @@ version 21w40a of Minecraft, for the PMC version of the resource pack.
 
 - The language name still appears in the Latin script. I can't figure out how to change it.
 - Bold text looks weird
+- Intentional game design death message doesn't work
 
 ## Building
 
