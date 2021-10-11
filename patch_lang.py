@@ -16,9 +16,30 @@ with open("lang.json", "r") as f:
 subs = list(subs_dict.items())
 subs.sort(key=lambda x: len(x[0]), reverse=True)
 
-subs = list(filter(lambda x: x[0] not in ["s", "%"], subs))
+# subs = list(filter(lambda x: x[0] not in ["s", "%"], subs))
 
 def patch(string):
+    result = ""
+    segment = ""
+    in_sub = False
+    for char in (list(string)):
+        if in_sub:
+            if char == 's':
+                in_sub = False
+            result += char
+        else:
+            if char == '%':
+                result += patch_segment(segment)
+                segment = ""
+                in_sub = True
+                result += '%'
+            else:
+                segment += char
+    result += patch_segment(segment)
+
+    return result
+
+def patch_segment(string):
     uppercasing = False
     new = []
     for x in list(string):
